@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: color-demo-#{test}
+  name: color-demo#{test}
 
 spec:
   generators:
