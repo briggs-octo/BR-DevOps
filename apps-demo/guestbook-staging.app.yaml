@@ -13,7 +13,7 @@ spec:
   project: default
   source:
     path: manifests/guestbook/staging
-    repoURL: https://github.com/aperture-sci/DevOps
+    repoURL: https://github.com/briggs-octo/BR-DevOps.git
     targetRevision: main
   syncPolicy:
     automated:
