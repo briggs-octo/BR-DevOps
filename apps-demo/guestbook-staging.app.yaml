@@ -10,7 +10,7 @@ spec:
   destination:
     name: in-cluster
     namespace: guestbook-staging
-  project: AAAAA
+  project: #{default}
   source:
     path: manifests/guestbook/staging
     repoURL: https://github.com/briggs-octo/BR-DevOps.git
